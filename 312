@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1>自我介紹</h1>
+    <p>姓名:蔡昀容</p>
+    <p>生日:89/02/12</p>
+    <p>星座:水瓶座</p>
+    <p>來自:屏東</p>
+    <p>興趣:追劇,看電影</p>
+    <p>運動:游泳</p>
+    <a href="https://www.instagram.com/rong_0212/">instagram</a>
+    <h2>HTML Table</h2>
+
+    <table border="1" bgcolor="lightblue" bordercolor="black">
+
+        <tr>
+            <th>roommate</th>
+            <th>county</th>
+        </tr>
+        <tr>
+            <td>number1</td>
+            <td>Taipei</td>
+        </tr>
+        <tr>
+            <td>number2</td>
+            <td>Taipei</td>
+        </tr>
+        <tr>
+            <td>number3</td>
+            <td>Keelung</td>
+        </tr>
+
+    </table>
+</body>

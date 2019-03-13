@@ -1,38 +1,76 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
     <meta charset="utf-8" />
     <title></title>
 </head>
 <body>
-    <h1>自我介紹</h1>
-    <p>姓名:蔡昀容</p>
-    <p>生日:89/02/12</p>
-    <p>星座:水瓶座</p>
-    <p>來自:屏東</p>
-    <p>興趣:追劇,看電影</p>
-    <p>運動:游泳</p>
-    <a href="https://www.instagram.com/rong_0212/">instagram</a>
-    <h2>HTML Table</h2>
+    <h2>ANESTHESIOLOGY PRE-OP EVALUTION</h2>
 
-    <table border="1" bgcolor="lightblue" bordercolor="black">
-
+    <table style="width:100%">
+        <tr align="left">
+            <td colspan="2">Height:<input type=text name=ny size=5>Weight:<input type=text name=ny size=5><input type="radio" />NPO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Last Ate:<input type="text" />&nbsp;&nbsp;&nbsp;Procedure:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td colspan="2">
+</tr>
         <tr>
-            <th>roommate</th>
-            <th>county</th>
+            <td colspan="2">Allergies:<input type=text name=ny size=5></td colspan="2">
         </tr>
         <tr>
-            <td>number1</td>
-            <td>Taipei</td>
+            <td colspan="2">Medications:(Circle Rx Given Today)<input type=text name=ny size=150></td>
         </tr>
         <tr>
-            <td>number2</td>
-            <td>Taipei</td>
+            <td colspan="2">Consultants:<input type=text name=ny size=150><input type="radio" />Note(s) reviewed</td colspan="2">
         </tr>
         <tr>
-            <td>number3</td>
-            <td>Keelung</td>
+            <td colspan="2">Prior Anesthesia History:<input type=text name=ny size=150></td>
         </tr>
-
+        <tr>
+            <td colspan="2">Prior Anesthesia Complications:<input type="radio" />NO&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" />YES&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" />H/O MH&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" />PONV&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Family History OF Anes. Prolems:<input type=text name=ny size=100></td>
+        </tr>
+        <tr>
+            <td><b>Labs</b>&nbsp;&nbsp;WBC<input type=text name=ny size=2>&nbsp;&nbsp;H/H<input type=text name=ny size=4>&nbsp;&nbsp;PLT<input type=text name=ny size=2>&nbsp;&nbsp;&nbsp;Antibody Screen&nbsp;&nbsp;&nbsp;&nbsp;+&nbsp;&nbsp;&nbsp;&nbsp;--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />Na<input type=text name=ny size=3>&nbsp;&nbsp;K<input type=text name=ny size=3>&nbsp;&nbsp;BUN<input type=text name=ny size=3>&nbsp;&nbsp;Cr<input type=text name=ny size=3>&nbsp;&nbsp;Glu<input type=text name=ny size=3>&nbsp;&nbsp;&nbsp;BTL/TAH LMP<input type=text name=ny size=5><br />PT/PTT<input type=text name=ny size=3>/<input type=text name=ny size=3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INR<input type=text name=ny size=3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" />HCG/NEG</td>
+            <td><b>Pulm.</b>&nbsp;&nbsp;<input type="radio" />WNL&nbsp;&nbsp;<input type="radio" />Asthma&nbsp;&nbsp;<input type="radio" />Pneumonia&nbsp;&nbsp;<input type="radio" />HOME O2<br /><input type="radio" />Rhinitis&nbsp;&nbsp;<input type="radio" />COPD&nbsp;&nbsp;<input type="radio" />Recent URI&nbsp;&nbsp;<input type="radio" />Sleep Apnea<br /><input type="radio" />CPAP&nbsp;&nbsp;<input type="radio" />Chronic Bronchitis&nbsp;&nbsp;<input type="radio" />Smoker&nbsp;&nbsp;<input type="radio" />Quit&nbsp;&nbsp;<br /><b>CXR</b>&nbsp;&nbsp;<input type="radio" />ENL</td>
+        </tr>
+        <tr>
+            <td rowspan="2"><b>PE.</b><input type="radio" />Small Mouth&nbsp;&nbsp;<input type="radio" />Front Caps&nbsp;&nbsp;<input type="radio" />Dentures U/L&nbsp;&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" />Bridges U/L&nbsp;&nbsp;&nbsp;<input type="radio" />Poor Centition<br />Neck ROM&nbsp;&nbsp;&nbsp;<input type="radio" />OK&nbsp;&nbsp;&nbsp;<input type="radio" />Limited<br />Airway Class:<input type=text name=ny size=10>&nbsp;&nbsp;TMD:<input type=text name=ny size=10><br /><b>Exam of Heart</b>&nbsp;&nbsp;&nbsp;<input type="radio" />Regular&nbsp;&nbsp;&nbsp;<input type="radio" />irregular&nbsp;&nbsp;&nbsp;<input type="radio" />Murmur<br /><b>Exam of Lungs</b>&nbsp;&nbsp;&nbsp;<input type="radio" />CTA&nbsp;&nbsp;&nbsp;<input type="radio" />Wheeze&nbsp;&nbsp;&nbsp;<input type="radio" />Crackles&nbsp;&nbsp;&nbsp;<input type="radio" />Other<br /></td>
+            <td><b>GI</b>&nbsp;&nbsp;<input type="radio" />WNL&nbsp;&nbsp;<input type="radio" />Hiatal Hernia&nbsp;&nbsp;<input type="radio" />Jaundice&nbsp;&nbsp;<input type="radio" />GI Bleed<br />&nbsp;&nbsp;<input type="radio" />GERD/PUD&nbsp;&nbsp;<input type="radio" />Ascites&nbsp;&nbsp;<input type="radio" />Cirrhosis<br />&nbsp;&nbsp;<input type="radio" />Diverticulosis&nbsp;&nbsp;<input type="radio" />Crohn's Ds&nbsp;&nbsp;<input type="radio" />Appendicitis<br />&nbsp;&nbsp;<input type="radio" />Hepatitis&nbsp;&nbsp;<input type="radio" />Cholecystitis</td>
+        </tr>
+        <tr>
+            <td><b>ONC</b>&nbsp;&nbsp;<input type="radio" />WNL&nbsp;&nbsp;<input type="radio" />Mastectomy R/L&nbsp;&nbsp;<input type="radio" />Radiation<br />&nbsp;&nbsp;<input type="radio" />Chemo&nbsp;&nbsp;<input type="radio" />Cancer<input type=text name=ny size=15></td>
+        </tr>
+        <tr>
+            <td rowspan="2"><b>CVS</b>&nbsp;&nbsp;<input type="radio" />WNL&nbsp;&nbsp;<input type="radio" />HTN&nbsp;&nbsp;<input type="radio" />Angina(Stable/Unstable)&nbsp;&nbsp;<input type="radio" />PTCA/STENT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" />CAD&nbsp;&nbsp;<input type="radio" />MI HX&nbsp;&nbsp;<input type="radio" />HX CABG<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" />MVP/MR/AI/AS&nbsp;&nbsp;<input type="radio" />High Chol&nbsp;&nbsp;<input type="radio" />AICD/Pacer&nbsp;&nbsp;<input type="radio" />PVD&nbsp;&nbsp;<input type="radio" />Murmur&nbsp;&nbsp;<input type="radio" />Rh. Fever<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" />Arrhythmias(A-Fib/A-Flutter)&nbsp;&nbsp;<input type="radio" />Cardiomyopathy<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" />CHF(Systolic/Diastolic)(Acute/Chronic)<br /><b>Echo/Cath:<input type=text name=ny size=100><br /><b>EKG</b><input type=text name=ny size=100></b></td>
+            <td><b>Renal</b>&nbsp;&nbsp;<input type="radio" />WNL&nbsp;&nbsp;<input type="radio" />Hx UTI&nbsp;&nbsp;<input type="radio" />Stones<br /><input type="radio" />Acute Renal Failure<input type="radio" />CKD&nbsp;&nbsp;<input type="radio" />Hemo-Dialysis<br /><input type="radio" />BPH&nbsp;&nbsp;<input type="radio" />Peritoneal Dialysis</td>
+        </tr>
+        <tr>
+            <td><b>ENDO</b>&nbsp;&nbsp;<input type="radio" />WNL&nbsp;&nbsp;<input type="radio" />NIDDM&nbsp;&nbsp;<input type="radio" />IDDM&nbsp;&nbsp;<input type="radio" />Neuropathy&nbsp;&nbsp;<input type="radio" />Obesity&nbsp;&nbsp;<input type="radio" />Hypoglycemia<br /><input type="radio" />Thyroid(Hypo/Hyper)&nbsp;&nbsp;<input type="radio" />Uterine Dysfunction</td>
+        </tr>
+        <tr>
+            <td rowspan="2"><b>CNS</b>&nbsp;&nbsp;<input type="radio" />WNL&nbsp;&nbsp;<input type="radio" />Dementia&nbsp;&nbsp;<input type="radio" />Seizure/Epilepsy&nbsp;&nbsp;<input type="radio" />ETOH&nbsp;&nbsp;<input type="radio" />Hx CVA/TIA&nbsp;&nbsp;<input type="radio" />Headaches/Migraines&nbsp;&nbsp;<input type="radio" />Drug Abuse<br /><input type="radio" />Anxiety<input type="radio" />Depression&nbsp;&nbsp;<input type="radio" />Mentally Impaired<input type="radio" />Residual Hemiparesis/Hemiplegia<br /><input type="radio" />Bipolar&nbsp;&nbsp;<input type="radio" />Neck pain/Upper extremity numbness/weakness<br /><input type="radio" />Parkinsons&nbsp;&nbsp;<input type="radio" />Back pain/Lower extremity numbness/weakness</td>
+            <td><b>HEME</b>&nbsp;&nbsp;<input type="radio" />WNL&nbsp;&nbsp;<input type="radio" />Bleeding Dysfuntion&nbsp;&nbsp;<input type="radio" />Hx DVT/PE<br /><input type="radio" />Anemia Chronic&nbsp;&nbsp;<input type="radio" />HIV/AIDS<br /><input type="radio" />Acute Blood loss Anemia&nbsp;&nbsp;<input type="radio" />Sickle Cell DS<br /><input type="radio" />Easy bruising/freq. Nosebleeds</td>
+        </tr>
+        <tr>
+            <td><b>Other</b>&nbsp;&nbsp;<input type="radio" />Malnutrition&nbsp;&nbsp;<input type="radio" />Glaucoma&nbsp;&nbsp;<input type="radio" />Decubitus Ulcer Site<input type=text name=ny size=20><br /><input type="radio" />Transplant status(Kidney/Liver/Heart/Lung)</td>
+        </tr>
+        <tr>
+            <td><b>Musculoskeletal:</b>&nbsp;&nbsp;<input type="radio" />WNL&nbsp;&nbsp;<input type="radio" />RA&nbsp;&nbsp;<input type="radio" />OA&nbsp;&nbsp;<input type="radio" />DJD&nbsp;&nbsp;<input type="radio" />SLE&nbsp;&nbsp;<input type="radio" />Gont&nbsp;&nbsp;<input type="radio" />Arthritis&nbsp;&nbsp;<input type="radio" />Fibromyalgia</td>
+            <td><b>Pediatrics</b>&nbsp;&nbsp;<input type="radio" />NVD&nbsp;&nbsp;<input type="radio" />C-Section<br />Premature Y/N by<input type=text name=ny size=10 />weeks<br />Hx of Y/N&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Immunization up-to-date Y/N<br />Hx of intubation/respiratory distress Y/N</td>
+        </tr>
+        <tr>
+            <td colspan="2">Preop evaluation Signatures:&nbsp;&nbsp;&nbsp;&nbsp;CRNA<input type=text name=ny size=30 />&nbsp;&nbsp;&nbsp;&nbsp;Date/Time<input type=text name=ny size=10 />&nbsp;&nbsp;&nbsp;&nbsp;Anesthesiologist<input type=text name=ny size=30 />&nbsp;&nbsp;&nbsp;&nbsp;Date/Time<input type=text name=ny size=10 /></td>
+        </tr>
+        <tr>
+            <td colspan="2"><br>Plan Of Care:ASA&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp;&nbsp;&nbsp;5&nbsp;&nbsp;&nbsp;&nbsp;E<br />&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" />GA<input type="radio" />Combined<input type="radio" />Epidural<input type="radio" />SAB<input type="radio" />Bier Block<input type="radio" />Mac<input type="radio" />Refused Epidural/Spinal<br />Invasive Procedures Discussed:<br />&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" />A-Line<input type="radio" />CVC<input type="radio" />PAC<input type="radio" />TEE<input type="radio" />Blood Transfusion<br />Pain Control Discussed:<br />&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" />Epidural<input type="radio" />ISB<input type="radio" />FNB<input type="radio" /><input type=text name=ny size=10 /><input type="radio" />Refused<input type=text name=ny size=10 /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CRNA providing anesthesia Signature<input type=text name=ny size=70 />Date/time<input type=text name=ny size=20 /><br /><input type="radio" />Anesthesia plans discussed with CRNA&nbsp;&nbsp;&nbsp;&nbsp;Supervising Anesthesiologist Signature<input type=text name=ny size=70 />Date/time<input type=text name=ny size=20 /></td>
+        </tr>
+        <tr>
+            <td><b>IF pre anesthesia evaluation is completed greater than 48 hours prior to surgery,</b><br />I have reviewed and agree with the pre-op evaluation with the following changers:<br /><input type=text name=ny size=100 /><br />Signature<input type=text name=ny size=50 />Date/Time<input type=text name=ny size=50 /></td>
+        </tr>
     </table>
+
 </body>
+</html>
